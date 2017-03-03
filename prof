@@ -1,0 +1,1 @@
+nvprof --devices 0 --metrics tex_cache_throughput,tex_cache_transactions,stall_texture,tex_cache_hit_rate,gst_efficiency,gld_efficiency,gst_throughput,gld_throughput,gst_bandwidth,gld_bandwidth ./a.out  8192 8192 32 32
